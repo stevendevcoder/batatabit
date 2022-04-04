@@ -1,0 +1,21 @@
+
+.card-benefits__container {
+    min-height: 170px;
+    max-width: 300px;
+}
+
+@media (min-width: 900px) {
+    .card-benefits__container {
+        max-width: 400px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .card-benefits__container {
+        max-width: 600px;
+    }
+    .cards__container {
+        margin-bottom: 40px;
+    }
+}
